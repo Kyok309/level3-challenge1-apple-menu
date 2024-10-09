@@ -62,3 +62,14 @@ body {
   src: url('/fonts/SF-Pro-Text-Light.otf') format('opentype');
   font-weight: light;
 }
+
+.scrollbar-hide {
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE and Edge */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
