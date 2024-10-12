@@ -133,15 +133,14 @@ const Navbar = () => {
                         <span className={clsx("block bg-gray-500 h-0.5 rounded-[1px] w-[18px] transition duration-300 group-hover:bg-gray-700", isCollapsed ? "" : "-rotate-45 -translate-y-1")}></span>
                     </button>
                 </div>
-                    <div className={clsx("w-full max-w-[1024px] flex flex-col items-start px-12 transition-all ease-in duration-300", isCollapsed ? "hidden" : "block")}>
-                        {navLinks.map((d, i) => (<a key={i} href={d.href} className="w-full font-sfProDisplaySemibold group text-[28px] leading-[32px] opacity-80 antialiased tracking-wide mb-4">
-                            <div className="flex justify-between">
-                                <div className="text-nowrap">{d.label}</div>
-                                <ChevronRight strokeWidth={1} size={28} className="opacity-0 group-hover:opacity-100"/>
-                            </div>
-                        </a>))}
-                    </div>
-
+                <div className={clsx("w-full max-w-[1024px] flex flex-col items-start px-12 transition-all ease-in duration-300", isCollapsed ? "hidden" : "block")}>
+                    {navLinks.map((d, i) => (<a key={i} href={d.href} className="w-full font-sfProDisplaySemibold group text-[28px] leading-[32px] opacity-80 antialiased tracking-wide mb-4">
+                        <div className="flex justify-between">
+                            <div className="text-nowrap">{d.label}</div>
+                            <ChevronRight strokeWidth={1} size={28} className="opacity-0 group-hover:opacity-100"/>
+                        </div>
+                    </a>))}
+                </div>
             </div>
         </div>
     );

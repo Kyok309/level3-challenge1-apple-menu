@@ -5,7 +5,7 @@ const Section2 = ({className}) => {
                 <div className="w-full h-full flex flex-col justify-between items-center">
 
                     <div className="flex flex-col items-center">
-                        <div className="text-[32px] leading-[36px] tablet:text-[48px] tablet:leading-[52px] desktop:text-[56px] font-sfProDisplaySemibold desktop:leading-[60px]">iPhone 16</div>
+                        <div className="text-[32px] leading-[36px] tablet:text-[48px] tablet:leading-[52px] desktop:text-[56px] desktop:leading-[60px] font-sfProDisplaySemibold">iPhone 16</div>
                         <div className="text-[19px] leading-[23px] tablet:text-[24px] tablet:leading-[28px] desktop:text-[28px] desktop:leading-8 mt-[6px]">Hello, Apple Intellegence.</div>
                     </div>
 
@@ -14,7 +14,7 @@ const Section2 = ({className}) => {
                         <div className="text-[17px] leading-[21px] tablet:text-[19px] tablet:leading-[23px] desktop:text-[21px] desktop:leading-[25px]">Apple Intellegence coming this fall</div>
                         <div className="flex justify-center gap-4 mt-[15px] font-sfProText">
                             <button className="bg-[#0071e3] rounded-[980px] text-sm py-[7px] px-[15px] tablet:py-[11px] tablet:px-[21px] tablet:text-[17px] leading-[20px] text-white hover:bg-[#0077ED]">Learn more</button>
-                            <button className="border border-[#0077ED] rounded-[980px] text-sm py-[7px] px-[15px] tablet:py-[11px] tablet:px-[21px] tablet:text-[17px] text-[#0077ED] text-[17px] leading-[20px] hover:bg-[#0077ED] hover:text-white">Pre-order</button>
+                            <button className="border border-[#0077ED] rounded-[980px] text-sm py-[7px] px-[15px] tablet:py-[11px] tablet:px-[21px] tablet:text-[17px] text-[#0077ED] leading-[20px] hover:bg-[#0077ED] hover:text-white">Pre-order</button>
                         </div>
                     </div>
 
